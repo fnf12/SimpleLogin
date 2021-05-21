@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Acceso</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Acceso al Sistema</h1>
+            <form action="" class="form">
+                        <div class="item">
+                            <label for="dni">DNI:</label><input type="text" id="dni" name="login_dni" pattern="[0-9]{8,8}" placeholder="Ingrese Dni">
+                        </div>
+                        <div class="item">
+                            <label for="usuario">Usuario:</label><input type="text" id="usuario" name="login_usuario" placeholder="Ingrese Usuario">
+                        </div>
+                        <div class="item">
+                            <label for="clave">Clave:</label><input type="password" id="clave" name="login_clave" placeholder="Ingrese la Clave">
+                        </div>
+                        <div class="envio">
+                            <input class="btn" type="submit" value="Ingresar">
+                        </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
